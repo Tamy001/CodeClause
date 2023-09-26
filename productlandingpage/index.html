@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial scale = 1.0">
+        <title>Landing Page</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class ="navbar">
+            <img src="logo.png" class = "nav-logo">
+                <ul>         
+                <a href = "#explore" class="active">Explore</a>
+                <a href = "#music">Music</a>
+                <a href = "#buy">Buy Game</a>
+                <a href = "#creator">Contact</a>
+                </ul>
+        </nav>
+        <main>
+        <section id="explore">
+            <div class="cover">
+            </div>
+            <h1 id="heading"><span id="multi"></span></h1>
+        <div class="about">
+            <div class="img img1"></div>
+            <div class="info info1">
+                <h2>Wreak Havoc!!!</h2>
+                <p>The Entire San francisco</p>
+                <p>is yours to hack & destroy.</p>
+                <p>Use anything at your disposal</p>
+                <p>to get the job done.</p>
+            </div>
+        </div>
+            <div class="about2">
+                <div class="img img2"></div>
+                <div class="info info2">
+                    <h2>Meet Crane</h2>
+                    <p>The newest member</p>
+                    <p>of the DEDSEC club.</p>
+                    <p>Doesnt talk much</p>
+                    <p>but always gets the job done.</p>
+                </div>
+        </div>
+        </section>
+
+        <section id="music">
+            <div class="bg">
+            <h1>Play Official Soundtrack</h1>
+            <audio id="mujic"><source src="fuse.mp3" type="audio/mpeg"></audio>
+            <button class ="btns" value="play" onclick="play()"><i class="fa fa-play"></i>Play</button>
+            <button class = "btns" value="pause" onclick="pause()"><i class="fa fa-pause"></i>Pause</button>
+            <button class = "btns" value="load" onclick="load()"><i class="fa fa-stop"></i>Stop</button>
+            </div>
+        </section>
+
+        <section id="buy">
+                <h1><span id="multi2"></span></h1>
+                <div class="shop">
+                    <div class="g1">
+                        <img src="cd1.jpg">
+                        <p>$ 14.99</p>
+                    </div>
+                    <div class="g1">
+                        <img src="cd2.jpg">
+                        <p>$ 20.99</p>
+                    </div>
+                    <div class="g1">
+                        <img src="cd3.jpg">
+                        <p>$ 25.99</p>
+                    </div>
+                </div>
+        </section>
+
+        <section id="creator">
+            <h1>Created by :</h1>
+            <span id="multi3"></span>
+        </section>
+
+        </main>
+    </body>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</html>
