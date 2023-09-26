@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial scale = 1.0">
+        <title>Amazon Clone</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9b3946862c.js" crossorigin="anonymous"></script>
+    </head>
+    <div>
+        <header>
+       <div class="navbar">
+
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+
+        <div class="nav-address border">
+            <i class="fa-solid fa-location-dot fa-xl" style="color: #fafcff;"></i>
+            <div class="address-seperator">
+            <p>Deliver to</p>
+            <h3>India</h3>
+            </div>
+            </div>
+       
+        <div class="nav-search border">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input class="search-input" placeholder="Search Amazon">
+            <div class="search-icon"><i class="fa-solid fa-magnifying-glass fa-xl"></i></div>
+        </div>
+       
+        <div class="nav-lang border">
+            <div class="nav-us-logo"></div>
+            <h5>EN</h5>
+            <h5>▼</h5>
+        </div>
+
+        <div class="nav-signin border">
+            <p>Hello,Sign in</p>
+            <h4>Accounts & Lists ▼</h4>
+        </div>
+
+        <div class="nav-return border">
+            <p>Returns</p>
+            <h4>& Orders</h4>
+        </div>
+
+        <div class="nav-cart border">
+            <div><i class="fa-solid fa-cart-shopping fa-2xl"></i></div>
+            <h4>Cart</h4>
+        </div>
+       </div>
+
+       <div class="panel">
+            <span class="border"><i class="fa-solid fa-bars"></i> All</span>
+            <span class="border">Today's Deals</span>
+            <span class="border">Customer Service</span>
+            <span class="border">Registry</span>
+            <span class="border">Gift Cards</span>
+            <span class="border">Sell</span>
+       </div>
+    </header>
+
+    <div class="shopping-section">
+
+    <div class="hero-section">
+        <div class="arrow l"><img src="arrowl.png" onclick="prev()"></div>
+        <div class="slide slide-1"></div>
+        <div class="slide slide-2"></div>
+        <div class="slide slide-3"></div>
+        <div class="slide slide-4"></div>
+        <div class="arrow r" ><img src="arrowr.png" onclick="next()"></div>
+        <div class="hero-message">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="" class="link-ind"> Click here to go to amazon.in</a></p>
+        </div>
+
+        <img src="cont14.jpg" class="fitter">
+        
+        <div class="content-box cbox1">
+            
+            <div class="box box1">
+                <h3>Gaming Accesories</h3>
+                <div class="inner-box">
+                    <div class="inner-content"><img src="cont111.jpg"></div>
+                    <div class="inner-content"><img src="cont112.jpg"></div>
+                    </div>
+                <div class="inner-box">
+                    <div class="inner-content"><p>Headsets</p></div>
+                    <div class="inner-content"><p>Keyboards</p></div>
+                    </div>
+                <div class="inner-box">
+                    <div class="inner-content"><img src="cont113.jpg"></div>
+                    <div class="inner-content"><img src="cont114.jpg"></div>
+                    </div>
+                <div class="inner-box">
+                    <div class="inner-content"><p>Computer Mice</p></div>
+                    <div class="inner-content"><p>Chairs</p></div>
+                    </div>
+                <div class="inner-box">
+                    <a href="" class="link-ind">See More.</a>
+                </div>
+            </div>
+            
+            <div class="box box2">
+                <h3>Toys under $30</h3>
+                <div class="inner-box"><img src="cont12.jpg" class="in-cont"></div>
+                <div class="inner-box">
+                    <a href="" class="link-ind">Shop Now.</a>
+                </div>
+            </div>
+            
+            <div class="box box3">
+                <h3>Electronics</h3>
+                <div class="inner-box"><img src="cont13.jpg" class="in-cont"></div>
+                <div class="inner-box">
+                    <a href="" class="link-ind">See More.</a>
+                </div>
+            </div>
+
+            <div class="box box4">
+            <h3 id="spcl">Sign in for the best experience</h3>
+                <button>Sign in securely</button>
+            
+            </div>
+            
+        </div>
+
+        <div class="content-box cbox2">
+
+            <div class="box box1">
+                <h3>Shop School Essentials</h3>
+                <div class="inner-box"><img src="cont21.jpg" class="in-cont"></div>
+                <div class="inner-box">
+                    <a href="" class="link-ind">See More.</a>
+                </div>
+            </div>
+
+            <div class="box box2">
+                <h3>Home & Kitchen under $30</h3>
+                <div class="inner-box"><img src="cont22.jpg" class="in-cont"></div>
+                <div class="inner-box">
+                    <a href="" class="link-ind">Shop Now.</a>
+                </div>
+            </div>
+
+            <div class="box box3">
+                <h3>Health & Personal Care</h3>
+                <div class="inner-box"><img src="cont23.jpg" class="in-cont"></div>
+                <div class="inner-box">
+                    <a href="" class="link-ind">Shop Now.</a>
+                </div>
+            </div>
+
+            <div class="box box3">
+                <h3>Beauty Picks</h3>
+                <div class="inner-box"><img src="cont24.jpg" class="in-cont"></div>
+                <div class="inner-box">
+                    <a href="" class="link-ind">Shop Now.</a>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="scroller scroll1">
+            <h3>Top Sellers in Books for you</h3>
+            <div class="snipbox box1">
+            <div class="arrow2 ll"><img src="arrowll.png" onclick="prevu()"></div>
+            <div class="snip snip-1"></div>
+            <div class="snip snip-2"></div>
+            <div class="arrow2 rr" onclick="nextu()"><img src="arrowrr.png"></div>
+            </div>
+            </div>
+
+            <div class="content-box cbox3">
+
+                <div class="box box1">
+                    <h3>Create with strip lights</h3>
+                    <div class="inner-box"><img src="cont31.jpg" class="in-cont"></div>
+                    <div class="inner-box">
+                        <a href="" class="link-ind">Shop now</a>
+                    </div>
+                </div>
+    
+                <div class="box box2">
+                    <h3>Home refresh ideas</h3>
+                    <div class="inner-box"><img src="cont32.jpg" class="in-cont"></div>
+                    <div class="inner-box">
+                        <a href="" class="link-ind">Shop kitchen upgrades</a>
+                    </div>
+                </div>
+    
+                <div class="box box3">
+                    <h3>Deals in tools</h3>
+                    <div class="inner-box"><img src="cont33.jpg" class="in-cont"></div>
+                    <div class="inner-box">
+                        <a href="" class="link-ind">Shop Now</a>
+                    </div>
+                </div>
+    
+                <div class="box box3">
+                    <h3>Kindle E-Readers</h3>
+                    <div class="inner-box"><img src="cont34.jpg" class="in-cont"></div>
+                    <div class="inner-box">
+                        <a href="" class="link-ind">Shop Now.</a>
+                    </div>
+                </div>
+    
+                </div>
+    
+            </div>
+
+            
+            <div class="content-box cbox4">
+
+                <div class="box box1">
+                    <h3>Shop pet supplies</h3>
+                    <div class="inner-box"><img src="cont41.jpg" class="in-cont"></div>
+                    <div class="inner-box">
+                        <a href="" class="link-ind">See more</a>
+                    </div>
+                </div>
+    
+                <div class="box box2">
+                    <h3>Shop Laptops & Tablets</h3>
+                    <div class="inner-box"><img src="cont42.jpg" class="in-cont"></div>
+                    <div class="inner-box">
+                        <a href="" class="link-ind">See nore</a>
+                    </div>
+                </div>
+    
+                <div class="box box3">
+                    <h3>Spring New Arrivals</h3>
+                    <div class="inner-box"><img src="cont43.jpg" class="in-cont"></div>
+                    <div class="inner-box">
+                        <a href="" class="link-ind">Shop Now</a>
+                    </div>
+                </div>
+    
+                <div class="box box3">
+                    <h3>For your fitness needs</h3>
+                    <div class="inner-box"><img src="cont44.jpg" class="in-cont"></div>
+                    <div class="inner-box">
+                        <a href="" class="link-ind">Shop Now.</a>
+                    </div>
+                </div>
+    
+                </div>
+    
+            </div>
+            
+
+    </div>
+
+</div>
+
+<footer>
+    <div class="foot-panel1">
+        Back to top.
+    </div>
+
+    <div class="foot-panel2">
+    <ul>
+        <p>Get to Know Us</p>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relations</a>
+        <a>Amazon Devices</a>
+        <a>Amazon Science</a>
+    </ul>
+
+    <ul>
+    <p>Make Money with Us</p>
+    <a>Sell products on Amazon</a>
+    <a>Sell on Amazon Business</a>   
+    <a>Sell apps on Amazon</a>   
+    <a>Become an Affiliate</a>   
+    <a>Advertise Your Products</a>    
+    <a>Self-Publish with Us</a>   
+    <a>Host an Amazon Hub</a>   
+    <a>›See More Make Money with Us</a>   
+    </ul>
+
+    <ul>
+        <p>Amazon Payment Products</p>
+        <a>Amazon Business Card</a>    
+        <a>Shop with Points</a>    
+        <a>Reload Your Balance</a>    
+        <a> Amazon Currency Converter</a>   
+    </ul>
+
+    <ul>
+        <p>Let Us Help You</p>
+        <a>Amazon and COVID-19</a>
+        <a>Your Account</a>
+        <a>Your Orders</a>
+        <a>Shipping Rates & Policies</a>
+        <a>Returns & Replacements</a>
+        <a>Manage Your Content and Devices</a>
+        <a>Amazon Assistant</a>
+        <a>Help</a>
+    </ul>
+    </div>
+
+    <div class="foot-panel3">
+        <div class="logo1"></div>
+        <button class="fbtn"><i class="fa-solid fa-globe"></i>   English   ▼</button>
+        <button class="fbtn"><i class="fa-solid fa-dollar-sign"></i> USD- U.S. Dollar</button>
+        <button class="fbtn"><img src="united-states.png" class="flogo">United States</button>
+    </div>
+
+    <div class="foot-panel4">
+        <div class="redirect1">
+            <ul>
+            <p>Amazon Music</p>
+            <a>Stream millions</a>
+            <a>of songs</a>
+            </ul> 
+            
+            <ul>
+                <p>Amazon Advertising</p>
+                <a>Find, attract, and</a>
+                <a>engage customers</a>
+            </ul>
+
+            <ul>
+                <p>6pm</p>
+                <a>Score deals</a>
+                <a>on fashion brands</a>
+            </ul>
+
+            <ul>
+                <p>AbeBooks</p>
+                <a>Books, art</a>
+                <a>& collectibles</a>
+            </ul>
+            
+            <ul>
+                <p>ACX</p>
+                <a>Audiobook Publishing</a>
+                <a>Made Easy</a>
+            </ul>
+
+            <ul>
+                <p>Sell on Amazon</p>
+                <a>Start a Selling Account</a>
+                <a>Made Easy</a>
+            </ul>
+
+            <ul>
+                <p>Amazon Business</p>
+                <a>Everything For</a>
+                <a>Your Business</a>
+            </ul>
+        </div>
+
+        <div class="redirect1">
+            <ul>
+            <p> Amp</p>
+            <a>Host your own</a>
+            <a>live radio show</a>
+            <a> with</a>
+            <a>music you love</a>
+            </ul> 
+            
+            <ul>
+                <p>AmazonGlobal</p>
+                <a>Ship Orders</a>
+                <a>Internationally</a>
+            </ul>
+
+            <ul>
+                <p>Home Services</p>
+                <a>Experienced Pros</a>
+                <a>Happiness Guarantee</a>
+            </ul>
+
+            <ul>
+                <p>Amazon Web </p>
+                <p>Services</p>
+                <a>Scalable Cloud</a>
+                <a>Computing Services</a>
+            </ul>
+            
+            <ul>
+                <p>Audible</p>
+                <a>Listen to Books &</a>
+                <a>Original</a>
+                <a>Audio Performances</a>
+            </ul>
+
+            <ul>
+                <p>Box Office Mojo</p>
+                <a>Find Movie</a>
+                <a>Box Office Data</a>
+            </ul>
+
+            <ul>
+                <p>Goodreads</p>
+                <a>Book reviews</a>
+                <a>& recommendations</a>
+            </ul>
+        </div>
+
+        <div class="redirect1">
+            <ul>
+            <p>Amazon Music</p>
+            <a>Stream millions</a>
+            <a>of songs</a>
+            </ul> 
+            
+            <ul>
+                <p>Amazon Advertising</p>
+                <a>Find, attract, and</a>
+                <a>engage customers</a>
+            </ul>
+
+            <ul>
+                <p>6pm</p>
+                <a>Score deals</a>
+                <a>on fashion brands</a>
+            </ul>
+
+            <ul>
+                <p>AbeBooks</p>
+                <a>Books, art</a>
+                <a>& collectibles</a>
+            </ul>
+            
+            <ul>
+                <p>ACX</p>
+                <a>Audiobook Publishing</a>
+                <a>Made Easy</a>
+            </ul>
+
+            <ul>
+                <p>Sell on Amazon</p>
+                <a>Start a Selling Account</a>
+                <a>Made Easy</a>
+            </ul>
+
+            <ul>
+                <p>Amazon Business</p>
+                <a>Everything For</a>
+                <a>Your Business</a>
+            </ul>
+        </div>
+
+        <div class="redirect1">
+            <ul>
+            <p>Amazon Music</p>
+            <a>Stream millions</a>
+            <a>of songs</a>
+            </ul> 
+            
+            <ul>
+                <p>Amazon Advertising</p>
+                <a>Find, attract, and</a>
+                <a>engage customers</a>
+            </ul>
+
+            <ul>
+                <p>6pm</p>
+                <a>Score deals</a>
+                <a>on fashion brands</a>
+            </ul>
+
+            <ul>
+                <p>AbeBooks</p>
+                <a>Books, art</a>
+                <a>& collectibles</a>
+            </ul>
+            
+            <ul>
+                <p>ACX</p>
+                <a>Audiobook Publishing</a>
+                <a>Made Easy</a>
+            </ul>
+
+            <ul>
+                <p>Sell on Amazon</p>
+                <a>Start a Selling Account</a>
+                <a>Made Easy</a>
+            </ul>
+
+            <ul>
+                <p>Amazon Business</p>
+                <a>Everything For</a>
+                <a>Your Business</a>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="foot-panel5">
+        <div class="endnote">
+            <a>Conditions of Use</a>
+            <a>Privacy Notice</a>
+            <a>Your Ads Privacy Choices</a>
+        </div>
+        <div class="endnote">
+            © 1996-2023, Amazon.com, Inc. or its affiliates
+        </div>
+    </div>
+
+</footer>
+
+
+
+   
+    
+   <script src="script.js"></script>
+
+    </body>
+</html>
